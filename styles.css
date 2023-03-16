@@ -1,0 +1,11 @@
+#quallity {
+    font-family: dm serif display, serif;
+    font-size: 68px;
+    color: rgb(56, 74, 98);
+    padding-bottom: 15px;
+    text-align: start;
+    width: 80vw;
+  }
+body{
+  overflow-x: hidden;
+}

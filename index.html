@@ -1,0 +1,513 @@
+
+<html lang="en">
+  <head>
+   
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css" media="(max-width:600px)">
+      <link rel="stylesheet" href="animation.css">
+      <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+  <meta charset="UTF-8"><style>
+      @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+  </style>
+  </head>
+  <!-- <body>
+  <div style="background: color #3d6098;">
+     <nav class="nav row p-3 mx-3 ps-5" style="background-color:  wh;font-size:11.8px;">
+          <a id="nav-1" class=" nav-link col-2 p-2 text-center ms-4 active fw-semibold" style="color: rgb(80, 102, 131); width: 120px;" aria-current="page" href="#">Corporate pricing</a>
+          <a id="nav-1" class="nav-link col-1 p-2 text-center  ms-4 fw-semibold" href="#" style="color: rgb(80, 102, 131);">Discover Stores</a>
+          <a id="nav-1" class="nav-link col-1 p-2 text-center  ms-4 fw-semibold" href="#" style="color: rgb(80, 102, 131);">Track Orders</a>
+           <a class="nav-link disabled">Disabled</a>
+           <div class="col-5 ms-2 text-end pt-2 fw-semibold" style="font-family: sans-serif; font-size: 12.9px; color: rgb(80, 102, 131);">
+              <span id="nav-1">Need help? Call:</span><a href="" class="text-decoration-none" id="num-link" style="font-family:sans-serif; font-size: 13px;">+2348139242140</a>
+          </div>
+          <div id="whatsapp" class="col-1  ms-2 text-center">
+              <img src="" alt="">
+          </div>
+          <div id="Niger" class="col-2 border text-center pt-2 ms-4 rounded-5" style="width: 100px;">
+              <img class="pb-1" src="images/Nigerian flag.svg" alt="">
+              <span style="font-family:sans-serif;font-size: 13px;">Nigeria</span>
+          </div>
+      </nav>
+  </div>  -->
+  <div id="sticky-nav" class="position-sticky" style="top: 0px;z-index:1;background-color:  #c4b691;">
+      <nav class="nav row p-3 mx-3 ps-5" style="background-color:   #91aec4;font-size:14px;">
+          <a id="printivo" class="nav-link col-4 p-2 ms-4  mt-0 active fw-semibold" style="color: rgb(16, 115, 245);" aria-current="page" href="#">
+              <img src="image/logo2.png" width="250px" alt=""></a>
+          <a id="nav-2" class="nav-link col-1 p-2 text-center ms-2 mt-1 fw-semibold" href="homePage.html" style="color: rgb(80, 102, 131);width: fit-content;height: fit-content;">Home</a>
+          <a id="nav-2" class="nav-link col-1 p-2 text-center ms-2 mt-1 fw-semibold" href="menu.html" style="color: rgb(80, 102, 131);height: fit-content; width: fit-content;">All Products</a>
+          <!-- <a class="nav-link disabled">Disabled</a> -->
+        
+          <a id="nav-2" class="nav-link col-1 p-2 text-center ms-2 mt-1 fw-semibold" href="https://printivo.com/cost-calculator" style="color: rgb(80, 102, 131);height: fit-content; width: fit-content;">Cost Calculator</a>
+          <a id="sign-in" class="nav-link col-1 p-2 text-end ms-5 mt-1 fw-semibold" href="signIn.html" style="color: rgb(225,177,171);height: fit-content; width: fit-content;">Sign In</a>
+          <a id="nav-2" class="nav-link col-1 p-2 text-end ms-4 mt-1 fw-semibold" href="SignUp.html" style="color: rgb(225,177,171);height: fit-content; width: fit-content;">Create an Account</a>
+          <a id="cart" class="nav-link col-2 p-2 text-start ms-3 fw-semibold" href="https://printivo.com/cart" style="color: rgb(225,177,171);height: fit-content; width: 50px ;"><img src="images/cart.svg" alt=""></a>
+          <div id="inpo">
+              <form class="d-flex" role="search">
+                  <div class="dropdown">
+                      <button class="btn btn-outline-success dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                          Menu
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                          <li><a class="dropdown-item active" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li>
+                              <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Seperated Link</a></li>
+  
+                      </ul>
+                  </div>
+                  <div class="col-lg-12 col-sm-12 col-md-6 me-2">
+                      <div>
+                          <input class="form-control w-100" type="search" placeholder="Search" aria-label="Search">
+                      </div>
+                  </div>
+              </form>
+              <!-- <div class="dropdown" id="sticky-search">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown button
+              </button> -->
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item active" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li>
+                      <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+          </div>
+  
+          <!-- <form class="col-lg-12 col-md-6 col-sm-3 d-flex" id="sticky-search" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+      </nav>
+  </div>
+  
+  
+  <div style="background-color: rgb(236,232,217);width: 100vw;">
+      <div id="quality-section" class="container">
+          <div class="row">
+              <div class="col-7 fw-light fs-1 fw-bold" id="all-quality  ">
+                  <div id="quallity">
+                      Quality Proucts
+                  </div>
+                  <div id="shipped" class="fw-bold" style="font-family: sans-serif;font-size: 24px;color:
+                  rgb(112, 128, 149);">
+                      Shipped to your your doorstep
+                  </div>
+                  <div class="mag">
+                      <div id="label">
+                          <label class="fw-bold" for="">What would
+                          you like to buy today?
+                          </label>
+                      </div>
+                      <div id="search-input" class="">
+                          <input id="input" type="text" placeholder="Search for battery, Lubricasnts, Engine parts, etc" class="form-control p-1 col-12 rounded border-0">
+                          <button><img src="images/search.svg" alt=""></button>
+                      </div>
+                  </div>
+              </div>
+              <!-- <div id="hand" class="col-5 pt-5 mb-5 d-xl  border border-0"> 
+                  <img style="max-width: 100%; " src="image/hand.jpeg"   alt="">
+              </div> -->
+          </div>
+      </div>
+  </div>
+  <div class="container">
+      <!-- <div class="row">
+          <div class="col-9 border mt-4 mb-4">
+              <h3 class="text-center ms-2" style="font-family: dm serif display;color: rgb(56,74,108);">
+                  Popular Products
+              </h3>
+          </div>
+          <div class="col-3 border mt-4 mb-4 pt-2 text-end">
+              <a style="color: rgb(215,127,129);"  class=" fw-semibold text-center text-decoration-none" href="">See All products</a>
+          </div>
+      </div> -->
+      <div class="col-12">
+          <div class="d-flex p-2">
+              <h3 class="text-start mt-2 ms-2" style="font-family: dm serif display;color: rgb(56,74,108);">
+                  Popular Products
+              </h3>
+              <a style="color: rgb(215,127,129);margin-top: 15px;" class="ms-auto fw-semibold text-decoration-none" href="">See All products</a>
+          </div>
+  
+      </div>
+      <div class="row g-3" style="margin: auto;">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b2.png" class="card-img-top w-100" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgsided Business Cardsb(56, 74, 98);">
+                          75-AH KOREA BATTERY
+                      </h5>
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦37,000 <span style="color:rgb(112, 128, 149);font-size: 14px;">per 1</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width: fit-content;cursor: pointer;" href="battery.html"><span>Browse
+                          <!-- --> 75-AH KOREA BATTERY
+                          <img src="image/svgexport-2.png" alt="" >
+                      </span></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b7.png" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                          150-AH KOREA BATTERY
+                      </h5>/
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦164,500 <span style="color:rgb(112, 128, 149);font-size: 14px;">per 1</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width: fit-content;cursor: pointer;" href="battery.html"><span>Browse
+                          <!-- -->150-AH KOREA BATTERY
+                          <img src="images/svgexport-2.png" alt="">
+                      </span></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b10.jpeg" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                         100-AH KOREA BATTERY
+                      </h5>
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦58,000 <span style="color:rgb(112, 128, 149);font-size: 14px;">per 1</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width:fit-content;cursor: pointer;" href="battery.html"><span>Browse
+                          <!-- -->100-AH KOREA BATTERY
+                          <img src="images/svgexport-2.png" alt="">
+                      </span></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b11.jpeg" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                          200-AH KOREA BATTERY
+                      </h5>
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦180,750<span style="color:rgb(112, 128, 149);font-size: 14px;"> per 1</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width:fit-content;cursor: pointer;" href="battery.html"><span>Browse
+                          <!-- -->200-AH KOREA BATTERY
+                          <img src="images/svgexport-2.png" alt="">
+                      </span></a>
+              </div>
+          </div>
+      </div>
+      <div class="row g-3" style="margin: auto;">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b12.jpeg" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                          75 AH CHINA BATTERY
+                      </h5>
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦30,000 <span style="color:rgb(112, 128, 149);font-size: 14px;">per 1</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width: fit-content;cursor: pointer;" href="battery.html"><span>Browse
+                          <!-- -->75 AH CHINA BATTERY
+                          <img src="images/svgexport-2.png" alt="">
+                      </span></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b13.jpeg" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                         100 AH CHINA BATTERY
+                      </h5>
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦48,000<span style="color:rgb(112, 128, 149);font-size: 14px;">per 1</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width: fit-content;cursor: pointer;" href="battery.html"><span>Browse
+                          <!-- -->100 AH CHINA BATTERY
+                          <img src="images/svgexport-2.png" alt="">
+                      </span></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b14.jpeg" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                          150 AH CHINA BATTERY
+                      </h5>
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦86,000 <span style="color:rgb(112, 128, 149);font-size: 14px;">per 100</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width: fit-content;cursor: pointer;" href="battery.html"><span>Browse
+                          <!-- --> 150 AH CHINA BATTERY
+                          <img src="images/svgexport-2.png" alt="">
+                      </span></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b15.jpeg" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                         200AH CHINA BATTERY
+                      </h5>
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦150,000 <span style="color:rgb(112, 128, 149);font-size: 14px;">per 100</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width: fit-content;cursor: pointer;" href="battery.html"><span>Browse
+                          <!-- -->200 AH CHINA BATTERY
+                          <img src="images/svgexport-2.png" alt="">
+                      </span></a>
+              </div>
+          </div>
+  
+      </div>
+      <div class="row g-3" style="margin: auto;">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b16.jpeg" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                          TYRE 315
+                      </h5>
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦146,400 <span style="color:rgb(112, 128, 149);font-size: 14px;"> per 1</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width: fit-content;cursor: pointer;" href="menu.html"><span>Browse
+                          <!-- --> TYRE 315
+                          <img src="images/svgexport-2.png" alt="">
+                      </span></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b17.jpeg" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                           TYRE 12
+                      </h5>
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦143,499<span style="color:rgb(112, 128, 149);font-size: 14px;"> per 1</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width: fit-content;cursor: pointer;" href="menu.html"><span>Browse
+                          <!-- --> TYRE 12
+                          <img src="images/svgexport-2.png" alt="">
+                      </span></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b18.jpeg" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                           TYRE 11
+                      </h5>
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦135,000 <span style="color:rgb(112, 128, 149);font-size: 14px;">per 1</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width:fit-content;cursor: pointer;" href="menu.html"><span>Browse
+                          <!-- -->  TYRE 11
+                          <img src="images/svgexport-2.png" alt="">
+                      </span></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                  <div id="card-img">
+                      <img src="image/b19.jpeg" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+                  </div>
+                  <div>
+                      <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                         TRUCK TYRE
+                      </h5>
+                      <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                          STARTING AT
+                      </p>
+                      <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                          ₦110,000 <span style="color:rgb(112, 128, 149);font-size: 14px;">per 1</span>
+                      </p>
+                  </div>
+                  <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width: fit-content;cursor: pointer;" href="menu.html"><span>Browse
+                          <!-- -->TRUCK TYRE
+                          <img src="images/svgexport-2.png" alt="">
+                      </span></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container mt-2">
+      <div class="col-12">
+          <div class=" d-flex p-2">
+              <h3 class="text-start mt-2 ms-2" style="font-family: dm serif display;color: rgb(56,74,108);">
+                  Popular Categories
+              </h3>
+              <a style="color: rgb(215,127,129);margin-top: 15px;" class="ms-auto fw-semibold text-decoration-none" href="">See All Categories</a>
+          </div>
+  
+      </div>
+  </div>
+  <div class="row container mt-3" style="margin: auto;">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card col-3" style="width: 100%;">
+              <div id="card-img">
+                  <img src="image/rim.png" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+              </div>
+              <div>
+                  <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                      RIM
+                  </h5>
+                  <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                      STARTING AT
+                  </p>
+                  <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                      ₦95,000 <span style="color:rgb(112, 128, 149);font-size: 14px;">per 1</span>
+                  </p>
+              </div>
+              <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width: fit-content;cursor: pointer;" href="menu.html"><span>Browse
+                      <!-- -->RIM
+                      <img src="images/svgexport-2.png" alt="">
+                  </span></a>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card col-3" style="width: 100%;">
+              <div id="card-img">
+                  <img src="image/b14.jpeg" class="card-img-top" alt="" style="height: 14rem;object-fit: cover;">
+              </div>
+              <div>
+                  <h5 class="card-title p-2 fw-bold" style="font-size: 16px;color:
+                      rgb(56, 74, 98);">
+                      Stickers
+                  </h5>
+                  <p class=" fw-semibold card-subtitle p-2" style="color:rgb(112, 128, 149);font-family: sans-serif;font-size: 13px;">
+                      STARTING AT
+                  </p>
+                  <p class=" h3 fw-semibold card-subtext p-2 fs-4" style="color:
+                      rgb(56, 74, 98);">
+                      ₦4,949 <span style="color:rgb(112, 128, 149);font-size: 14px;">per 75</span>
+                  </p>
+              </div>
+              <a class="btn text-start text-light fw-semibold p-2 m-2" style="background-color: rgb(215,127,129);width: fit-content;cursor: pointer;" href="/product/two-sided-business-cards"><span>Browse
+                      <!-- -->Stickers
+                      <img src="images/svgexport-2.png" alt="">
+                  </span></a>
+          </div>
+      </div>
+  </div>
+  
+  
+  
+                  </div>
+              </div>
+          </div>
+  
+  
+          
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  
+  
+  </body>
+  </html>

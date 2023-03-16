@@ -1,2 +1,1 @@
-# ecommercepage
-html css,bootstrapand javascript
+# ecommerce-page
